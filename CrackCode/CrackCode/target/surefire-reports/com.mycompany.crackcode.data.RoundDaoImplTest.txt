@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: com.mycompany.crackcode.data.RoundDaoImplTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.993 s <<< FAILURE! - in com.mycompany.crackcode.data.RoundDaoImplTest
+testCreateRound(com.mycompany.crackcode.data.RoundDaoImplTest)  Time elapsed: 0.99 s  <<< ERROR!
+org.springframework.transaction.CannotCreateTransactionException: Could not open JDBC Connection for transaction; nested exception is java.sql.SQLNonTransientConnectionException: Public Key Retrieval is not allowed
+	at com.mycompany.crackcode.data.RoundDaoImplTest.testCreateRound(RoundDaoImplTest.java:70)
+Caused by: java.sql.SQLNonTransientConnectionException: Public Key Retrieval is not allowed
+	at com.mycompany.crackcode.data.RoundDaoImplTest.testCreateRound(RoundDaoImplTest.java:70)
+

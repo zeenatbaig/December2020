@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: com.mycompany.crackcode.data.GameDaoImplTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 4.759 s <<< FAILURE! - in com.mycompany.crackcode.data.GameDaoImplTest
+testCreateGame(com.mycompany.crackcode.data.GameDaoImplTest)  Time elapsed: 1.192 s  <<< ERROR!
+org.springframework.transaction.CannotCreateTransactionException: Could not open JDBC Connection for transaction; nested exception is java.sql.SQLNonTransientConnectionException: Public Key Retrieval is not allowed
+	at com.mycompany.crackcode.data.GameDaoImplTest.testCreateGame(GameDaoImplTest.java:62)
+Caused by: java.sql.SQLNonTransientConnectionException: Public Key Retrieval is not allowed
+	at com.mycompany.crackcode.data.GameDaoImplTest.testCreateGame(GameDaoImplTest.java:62)
+
